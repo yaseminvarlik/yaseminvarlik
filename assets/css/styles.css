@@ -7,18 +7,18 @@ body {
 h1, h2, h3 {
     font-family: "gibson";
     font-weight: normal;
+    z-index: 10000;
 }
 h1 { 
         font-size: 20px;  
         margin-left: 20px;
         letter-spacing: 5px; 
         position: absolute;
-        z-index: 10000;  
+        
     }
 h2 { 
     font-size: 30px; 
     width: 45%;
-    z-index: 10000;
     position: fixed;
     margin-top: 25%;
     color: black;
@@ -28,8 +28,7 @@ h3 {
     width: 150%;
     margin-top: 25%;  
     position: fixed;
-    z-index: 10000; 
-    color: white;
+     color: white;
     }
    
 .background {
