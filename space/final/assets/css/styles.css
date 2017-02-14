@@ -1,0 +1,247 @@
+html, body { width: 100%; height: 100%; margin:0; padding:0; }
+
+.rectangles {
+	width: 10%;
+	height: 20%;
+	background-color: black;
+	top: 0;
+	left: 30%;
+	position: fixed;
+
+
+}
+
+.rectangles_one {
+	position: fixed;
+	width: 14%;
+	height: 15%;
+	background-color: black;
+	top: 17%;
+	left: 20%;
+		
+}
+
+
+.rectangles_two {
+	width: 13%;
+	height: 10%;
+	position: fixed;
+	background-color: black;
+	top: 40%;
+	left: 11%;
+	
+}
+
+.rectangles_three {
+	width: 5%;
+	height: 25%;
+	background-color: black;
+	position: fixed;
+	left: 8%;
+	top: 45%;
+	
+	
+}
+
+.rectangles_four {
+	width: 14%;
+	height: 13%;
+	background-color: black;
+	bottom: 10%;
+	position: fixed;
+}
+
+.rectangles_five {
+	width: 18%;
+	height: 6%;
+	background-color: black;
+	left: 70%;
+	position: fixed;
+	
+}
+
+.rectangles_six {
+	width: 6%;
+	height: 11%;
+	background-color: black;
+	position: fixed;
+	top: 13%;
+	right: 25%;
+
+	
+}
+
+.rectangles_seven {
+	width: 5%;
+	height: 30%;
+	background-color: black;
+	position: fixed;
+	top: 20%;
+	right: 0%;
+
+	
+}
+
+
+.rectangles_eight {
+	width: 5%;
+	height: 30%;
+	background-color: black;
+	position: fixed;
+	bottom: 11%;
+	right: 0%;
+
+	
+}
+
+.rectangles_nine {
+	width: 6%;
+	height: 11%;
+	background-color: black;
+	position: fixed;
+	bottom: 11%;
+	right: 13%;
+
+	
+}
+.rectangles_ten {
+	width: 6%;
+	height: 11%;
+	background-color: black;
+	position: fixed;
+	bottom: 30%;
+	right: 13%;
+
+	
+}
+.rectangles_eleven {
+	width: 6%;
+	height: 11%;
+	background-color: black;
+	position: fixed;
+	bottom: 50%;
+	right: 13%;
+
+	
+}
+
+.rectangles_twelve {
+	width: 6%;
+	height: 11%;
+	background-color: black;
+	position: fixed;
+	bottom: 69%;
+	right: 13%;
+
+	
+}
+
+.rectangles_thirteen {
+	width: 20%;
+	height: 3%;
+	background-color: black;
+	position: fixed;
+	right: 30%;
+	left: 40%;
+	top: 60%;
+
+	
+}
+
+.rectangles_fourteen {
+	width: 20%;
+	height: 10%;
+	background-color: black;
+	position: fixed;
+	left: 45%;
+	top: 40%;
+
+	
+}
+
+.rectangles_fifthteen {
+	width: 20%;
+	height: 5%;
+	background-color: black;
+	position: fixed;
+	right: 30%;
+	left: 30%;
+	bottom: 8%;
+
+	
+}
+
+.rectangles_sixteen {
+	width: 9%;
+	height: 13%;
+	background-color: black;
+	position: fixed;
+	right: 30%;
+	left: 51%;
+	bottom: 0%;
+
+	
+}
+
+.text {
+	font-family: "futura";
+	line-height: 3pt;
+	margin: 0 auto;
+	top: 2%;
+	left: 45%;
+	position: fixed;
+	
+	
+}
+
+p {
+	text-align: center;
+	font-size: 1.6vmin;
+	
+}
+
+/*#rectangle:hover {
+	
+	background-color: #4F99D4;
+	
+	
+}*/
+
+a .rectangles:hover, .rectangles_one:hover, .rectangles_two:hover, .rectangles_three:hover, 
+.rectangles_four:hover, .rectangles_five:hover, .rectangles_six:hover, .rectangles_seven:hover,
+.rectangles_eight:hover, .rectangles_nine:hover, .rectangles_ten:hover, .rectangles_eleven:hover,
+.rectangles_twelve:hover, .rectangles_thirteen:hover, .rectangles_fourteen:hover, .rectangles_fifthteen:hover,
+.rectangles_sixteen:hover    {
+	background-color: #4F99D4;
+}
+
+/*a .rectangles:visited, .rectangles_one:visited, .rectangles_two:visited, .rectangles_three:visited, 
+.rectangles_four:visited, .rectangles_five:visited, .rectangles_six:visited, .rectangles_seven:visited,
+.rectangles_eight:visited, .rectangles_nine:visited, .rectangles_ten:visited, .rectangles_eleven:visited,
+.rectangles_twelve:visited, .rectangles_thirteen:visited, .rectangles_fourteen:visited, .rectangles_fifthteen:visited,
+.rectangles_sixteen:visited    {
+	background-color: #4F99D4;
+}*/
+
+
+.items h3, h4 {
+	font-family: "futura";
+	font-size: 4vmin;
+	position: fixed;
+}
+
+h3 {
+	bottom: 45%;
+	left: 28%;
+}
+
+h4{
+	bottom: 43%;
+	left: 69%;
+}
+
+
+
+
+
+
