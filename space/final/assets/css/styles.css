@@ -200,28 +200,6 @@ p {
 	
 }
 
-/*#rectangle:hover {
-	
-	background-color: #4F99D4;
-	
-	
-}*/
-
-a .rectangles:hover, .rectangles_one:hover, .rectangles_two:hover, .rectangles_three:hover, 
-.rectangles_four:hover, .rectangles_five:hover, .rectangles_six:hover, .rectangles_seven:hover,
-.rectangles_eight:hover, .rectangles_nine:hover, .rectangles_ten:hover, .rectangles_eleven:hover,
-.rectangles_twelve:hover, .rectangles_thirteen:hover, .rectangles_fourteen:hover, .rectangles_fifthteen:hover,
-.rectangles_sixteen:hover    {
-	background-color: #4F99D4;
-}
-
-/*a .rectangles:visited, .rectangles_one:visited, .rectangles_two:visited, .rectangles_three:visited, 
-.rectangles_four:visited, .rectangles_five:visited, .rectangles_six:visited, .rectangles_seven:visited,
-.rectangles_eight:visited, .rectangles_nine:visited, .rectangles_ten:visited, .rectangles_eleven:visited,
-.rectangles_twelve:visited, .rectangles_thirteen:visited, .rectangles_fourteen:visited, .rectangles_fifthteen:visited,
-.rectangles_sixteen:visited    {
-	background-color: #4F99D4;
-}*/
 
 
 .items h3, h4 {
