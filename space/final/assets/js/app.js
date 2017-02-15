@@ -1,5 +1,5 @@
 
-console.log("hello");
+console.log();
 $("#rectangle").hover(function() {
     $(this).css('cursor','pointer');
 }, function() {
