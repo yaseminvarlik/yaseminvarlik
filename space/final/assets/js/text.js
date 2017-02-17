@@ -13,13 +13,13 @@ $(".rectangles_three").click(function () {
 });
 
 
-function number_of_rectangles() {
-	var count = $(".rectangle.selected").length;
-	// alert(count);
-	if ( count == 2 ) {
-		window.location.href = "receipt.html";
-		// $(".rectangle.selected").load( "receipt.html" );
-	}
-};
-	// if count is 2, then load some page.
+// function number_of_rectangles() {
+// 	var count = $(".rectangle.selected").length;
+// 	// alert(count);
+// 	if ( count == 2 ) {
+// 		window.location.href = "receipt.html";
+// 		// $(".rectangle.selected").load( "receipt.html" );
+// 	}
+// };
+// 	// if count is 2, then load some page.
 
