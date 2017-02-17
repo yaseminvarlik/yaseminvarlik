@@ -16,19 +16,21 @@ h1 {
         position: absolute;
         
     }
+
 h2 { 
     font-size: 30px; 
-    width: 45%;
     position: fixed;
-    margin-top: 25%;
+    top: 43%;
+    left: 23%;
     color: black;
     }
+
 h3 { 
     font-size: 30px; 
-    width: 150%;
-    margin-top: 25%;  
+    top: 43%;
+    left: 73%; 
     position: fixed;
-     color: white;
+    color: white;
     }
    
 .background {
