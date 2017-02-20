@@ -12,7 +12,7 @@ $(".rectangle").click(function() {
 //   number_of_rectangles();
 // });
 
-$ (".rectangle").click(function() {
+$ (".rectangles_one").click(function() {
 	$(this).addClass("receipt");
 });
 
