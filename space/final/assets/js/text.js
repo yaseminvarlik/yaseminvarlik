@@ -2,15 +2,15 @@ $(".rectangle").click(function() {
 	$(this).addClass("selected");
 });
 
-$(".rectangles_four").click(function () {
-  $(".items h3").text("mug");
-  number_of_rectangles();
-});
+// $(".rectangles_four").click(function () {
+//   $(".items h3").text("mug");
+//   number_of_rectangles();
+// });
 
-$(".rectangles_three").click(function () {
-  $(".items h4").text("bottled water");
-  number_of_rectangles();
-});
+// $(".rectangles_three").click(function () {
+//   $(".items h4").text("bottled water");
+//   number_of_rectangles();
+// });
 
 
 // function number_of_rectangles() {
