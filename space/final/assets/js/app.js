@@ -12,10 +12,13 @@ $(".rectangle").click(function() {
 //   number_of_rectangles();
 // });
 
-$ (".rectangles_one").click(function() {
+$ (".rectangles_one, .rectangles_two, .rectangles_three, .rectangles_four, .rectangles, .rectangles_five, .rectangles_six, .rectangles_seven, .rectangles_eight, .rectangles_nine, .rectangles_ten, .rectangles_eleven, .rectangles_twelve, .rectangles_thirteen, .rectangles_fifthteen, .rectangles_sixteen").click(function() {
 	$(this).addClass("receipt");
 });
 
+$("rectangles_fourteen").click(function() {
+	$("rectangle").removeClass("receipt")
+});
 
 // function number_of_rectangles() {
 // 	var count = $(".rectangle.selected").length;

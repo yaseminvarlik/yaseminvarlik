@@ -197,38 +197,13 @@ html, body { width: 100%; height: 100%; margin:0; padding:0; }
 	
 	
 }
-/*
-p {
-	text-align: center;
-	font-size: 1.6vmin;
-	
-}*/
+
 
 .selected {
 	background: #4F99D4;
 }
 
-/*.opacity {
-	display: none;
-}*/
 
-/*.items h3, h4 {
-	font-family: "futura";
-	font-size: 3vmin;
-	position: fixed;
-	
-}*/
-
-/*h3 {
-	top: 70%;
-	left: 40%;
-}
-
-h4{
-	top: 69%;
-	right: 40%;
-}
-*/
 
 .refresh a img {
 	position: fixed;
@@ -250,6 +225,7 @@ h4{
 	top: 25%;
 
 }
+
 
 
 

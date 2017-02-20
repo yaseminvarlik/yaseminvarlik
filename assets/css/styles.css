@@ -14,7 +14,7 @@ h1 {
         margin: 0 auto;
         text-align: center;
         letter-spacing: 3px; 
-        margin-top: 15%;
+        margin-top: 20%;
 
         
     }
@@ -48,6 +48,16 @@ a {
     left: 50%;
     position:fixed;
 
+}
+
+.image img {
+    margin: 0 auto;
+    width: 100px;
+    height: auto;
+    position: fixed;
+    top: 10%;
+    left: 46%;
+    
 }
 /*   
 .background {
