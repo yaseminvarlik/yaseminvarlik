@@ -28,7 +28,10 @@ $(".rectangles_fourteen").click(function() {
 
 
 $(".rectangles_ten").click(function(){
-	$(".text").css("opacity", "100")
+	$(".total").toggle("hide");
+	$(".text").toggleClass("hide");
+
+	
 });
 
 
