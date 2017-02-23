@@ -1,3 +1,10 @@
+
+setInterval(function(){
+  $(".rectangles_fourteen").css("opacity", "100" );
+  },10000)
+
+
+
 $(".rectangle").click(function() {
 	$(this).addClass("selected");
 });
@@ -20,18 +27,24 @@ $(".rectangles_fourteen").click(function() {
 });
 
 
+$(".rectangles_ten").click(function(){
+	$(".text").css("opacity", "100")
+});
+
+
+
 // $("rectangles_fourteen").click(function() {
 // 	$("rectangle").removeClass ("receipt");
 // });
 
 // function number_of_rectangles() {
 // 	var count = $(".rectangle.selected").length;
-// 	// alert(count);
+// 	alert(count);
 // 	if ( count == 2 ) {
+	
+// 	};
+// };
 
-// 		window.location.href = "receipt.html";
-		
-// 	}
 // };
 	// if count is 2, then load some page.
 
