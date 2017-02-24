@@ -195,12 +195,12 @@ html, body { width: 100%; height: 100%; margin:0; padding:0; overflow-y: hidden;
 
 .text {
 	font-family: "futura";
-	font-size: 20pt;
+	font-size: 3vmin;
 	line-height: 2pt; 
-	position: fixed;
+	position: absolute;
 	text-align: center;
-	top: 30%;
-	left: 35%;
+	top: 40%;
+	left: 38%;
 }
 
 .text.hide { display: none; }
@@ -212,7 +212,7 @@ html, body { width: 100%; height: 100%; margin:0; padding:0; overflow-y: hidden;
 
 
 .total {
-	margin-top: -170px;
+	margin-top: -180px;
 	text-align: center;
 	font-family: "futura";
 	font-size: 600pt;
