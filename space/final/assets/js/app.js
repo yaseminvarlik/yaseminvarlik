@@ -22,6 +22,8 @@ $(".rectangles_fourteen").click(function() {
 
 });
 
+
+
 $(".rectangles_fourteen").click(function() {
 	window.location.reload ();
 });
