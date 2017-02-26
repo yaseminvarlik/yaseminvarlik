@@ -120,6 +120,18 @@ html, body { width: 100%; height: 100%; margin:0; padding:0; overflow-y: hidden;
 
 	
 }
+
+.rectangles_ten.rotate{
+	animation: direction 1s infinite;
+
+}
+
+@keyframes direction {
+    from { right: 13%;}
+    to { right: 15%; }
+}
+
+
 .rectangles_eleven {
 	width: 6%;
 	height: 11%;
@@ -162,11 +174,18 @@ html, body { width: 100%; height: 100%; margin:0; padding:0; overflow-y: hidden;
 	left: 45%;
 	top: 30%;
 	opacity: 0;
+	
 		
 }
 
 .rectangles_fourteen.blink {
-	animation: pulse 5s infinite;
+	
+	animation: mymove 0.5s infinite;
+}
+
+@keyframes mymove {
+    from { background-color: black;}
+    to { background-color: #4F99D4; }
 }
 
 
@@ -221,6 +240,8 @@ html, body { width: 100%; height: 100%; margin:0; padding:0; overflow-y: hidden;
 
 
 }
+
+
 
 
 
