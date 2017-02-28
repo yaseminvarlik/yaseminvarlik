@@ -122,13 +122,21 @@ html, body { width: 100%; height: 100%; margin:0; padding:0; overflow-y: hidden;
 }
 
 .rectangles_ten.rotate{
-	animation: direction 1s infinite;
+	animation: direction 2s infinite;
 
 }
 
 @keyframes direction {
-    from { right: 13%;}
-    to { right: 15%; }
+    0% {
+    right: 200px;
+  }
+  50% {
+    right: 80px;
+  }
+  100% {
+    right: 200px;
+  }
+}
 }
 
 
@@ -137,8 +145,8 @@ html, body { width: 100%; height: 100%; margin:0; padding:0; overflow-y: hidden;
 	height: 11%;
 	background-color: black;
 	position: fixed;
-	bottom: 50%;
-	right: 13%;
+	bottom: 30%;
+	right: 17%;
 
 	
 }
@@ -237,6 +245,7 @@ html, body { width: 100%; height: 100%; margin:0; padding:0; overflow-y: hidden;
 	text-align: center;
 	font-family: "futura";
 	font-size: 600pt;
+	
 
 
 }
