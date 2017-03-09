@@ -1,0 +1,69 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 960px;
+}
+
+.composition {
+	width: 768px;
+	height: 768px;
+	background-color: #F8E71C;
+
+}
+
+.redline {
+	height: 100px;
+	width: 768px;
+	background-color: #D0021B;
+	margin-top: -100px;
+	
+
+
+}
+
+.bluesquare {
+	width: 568px;
+	height: 568px;
+	background-color: #202665;
+	margin-top: -668px;
+	margin-left: 100px;
+	z-index: 10;
+
+
+	
+}
+
+.greensquare {
+	background-color: #009E4F;
+	width: 368px;
+	height: 368px;
+	margin-top: -468px;
+	margin-left: 200px;
+
+
+}
+
+.redrect {
+	margin: 20px;
+	background-color: #ED2025;
+	width: 328px;
+	height: 67px;
+	margin-left: 220px;
+	
+}
+
+.one {
+	margin-top: -348px;
+
+}
+
+
+
+
+
+
+
