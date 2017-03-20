@@ -12,43 +12,363 @@ body {
 
 div {
 	display: inline-block;
-
-}
-.position {
-	position: fixed;
 	
 }
 
-.letters {
-	
-	background-color: gray;
+.lettera, .letterb, .letterc, .letterd, .lettere, .letterf, .letterg, .letterh, .letteri, .letterj, .letterk, .letterl, .letterm, .lettern, .lettero, .letterp, .letterq, .letterr, .letters, .lettert, .letteru, .letterv, .letterw, .letterx, .lettery, .letterz {
 	width: 150px;
-	height: 260px;
-	margin: 50px;
-	
-	
+	height: 220px;
+	background-color: gray;
+	overflow: hidden;
+	position: relative;
+	margin: 20px 20px 60px 60px;
 }
 
-.A {
-	
-	top: 135px;
-	left: 15px;
-	width: 120px;
-	height: 125px;
-	background-color: black; 
-	
-
-}
-
-.letters .A .A2 {
-	top: 100px;
-	left: 15px;
+.a_one {
 	width: 0;
 	height: 0;
-	border-left: 50px solid transparent;
-	border-right: 50px solid transparent;
-	border-bottom: 100px solid red;
-	margin-bottom: 50px;
+	border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+	border-bottom: 130px solid black;
+}
+
+.b_one {
+	height:90px;
+ 	width:50px;
+ 	border-radius: 0 75px 75px 0;
+ 	margin-left: 60px;
+ 	background-color: black;
+}
+
+.b_two {
+	height:125px;
+ 	width:55px;
+ 	border-radius: 0 57px 57px 0;
+ 	margin: 5px 0 0 60px;
+ 	background-color: black;
+}
+
+.c_one {
+	height:120px;
+ 	width:75px;
+ 	border-radius: 120px 0 0 120px;
+ 	background-color: black;
+ 	margin: 50px 0 0 35px;
+}
+
+.d_one {
+	height:120px;
+ 	width:75px;
+ 	border-radius: 0 57px 57px 0;
+ 	margin: 50px 0 0 35px;
+ 	background-color: black;
+}
+
+.e_one {
+	width: 130px;
+	height: 80px;
+	background-color: black;
+	margin: 20px 20px 0 20px;
+
+}
+
+.e_two {
+	width: 130px;
+	height: 80px;
+	background-color: black;
+	margin: 20px 0 0 20px;
+}
+
+.f_one {
+	width: 130px;
+	height: 80px;
+	background-color: black;
+	margin: 20px 0 0 20px;
+}
+
+.f_two {
+	width: 130px;
+	height: 100px;
+	background-color: black;
+	margin: 20px 0 0 20px;
+}
+
+.g_one{
+	height:100px;
+ 	width: 150px;
+ 	border-radius: 100px 100px 0 0;
+ 	background-color: black;
+ 	margin: 0 0 10px 0;
+}
+
+.g_two {
+	width: 150px;
+	height: 100px;
+	background-color: black;
+	margin: 10px 0 0 0;
+}
+
+.h_one, .h_two {
+	width: 110px;
+	height: 100px;
+	background-color: black;
+	margin: 0 20px 20px 20px;
+}
+
+.i_one {
+	width: 30px;
+	height: 220px;
+	background-color: black;
+	margin: 0 60px 0 60px;
+}
+
+.j_one {
+	height:50px;
+ 	width: 90px;
+ 	border-radius: 0 0 100px 100px;
+ 	background-color: black;
+ 	margin: 170px 0 0 40px;
+}
+
+
+.k_three {
+	width: 0;
+	height: 0;
+	border-right: 75px solid black;
+	border-bottom: 110px solid transparent;
+	border-top: 110px solid transparent;
+	margin-right: -20px;
+	margin-left: 75px;
+}
+
+.k_two{
+	width: 0;
+	height: 0;
+	border-left: 105px solid black;
+	border-right: 110px solid transparent;
+	border-top: 150px solid transparent;
+	margin-top: -220px;
 	
 
 }
+.k_one {
+	width: 0;
+	height: 0;
+	border-left: 105px solid black;
+	border-right: 110px solid transparent;
+	border-bottom: 150px solid transparent;
+	margin-top: -220px;
+	margin-bottom: 220px;	
+	
+}
+
+.l_one {
+	width: 60px;
+	height: 220px;
+	background-color: black;
+	margin: 0 45px 0 45px;
+}
+
+.m_one {
+	width: 0;
+	height: 0;
+	border-left: 70px solid black;
+	border-right: 75px solid transparent;
+	border-top: 220px solid transparent;
+
+}
+
+.m_two{
+	width: 0;
+	height: 0;
+	border-left: 70px solid transparent;
+	border-right: 75px solid black;
+	border-top: 220px solid transparent;
+	margin: -220px 0 0 5px;
+	
+}
+
+.n_one {
+	width: 0;
+	height: 0;
+	border-left: 125px solid black;
+	border-right: 125px solid transparent;
+	border-top: 220px solid transparent;
+}
+
+.n_two{
+	width: 0;
+	height: 0;
+	border-left: 125px solid transparent;
+	border-right: 125px solid black;
+	border-bottom: 220px solid transparent;
+	margin-top:-220px;
+	margin-left: -100px;
+}
+
+.o_one{
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	border-radius: 50px;
+	margin: 60px 0 0 25px;
+}
+
+.p_one {
+	height:90px;
+ 	width:50px;
+ 	border-radius: 0 75px 75px 0;
+ 	margin-left: 80px;
+ 	margin-top: 20px;
+ 	background-color: black;
+}
+
+.q_one {
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	border-radius: 50px;
+	margin: 90px 0 0 25px;
+}
+
+.q_two {
+	width: 0;
+	height: 0;
+	border-left: 70px solid transparent;
+	border-right: 75px solid black;
+	border-top: 50px solid transparent;
+	margin: -20px 0 0 5px;
+}
+
+.r_one{
+	height:90px;
+ 	width:50px;
+ 	border-radius: 0 75px 75px 0;
+ 	margin-left: 45px;
+ 	background-color: black;
+}
+
+.r_two {
+	width: 0;
+	height: 0;
+	border-left: 70px solid black;
+	border-right: 75px solid transparent;
+	border-top: 130px solid transparent;
+	margin-left: 45px;
+}
+
+.s_one {
+	height:90px;
+ 	width:50px;
+ 	border-radius: 0 75px 75px 0;
+ 	margin-left: 75px;
+ 	margin-top: 115px;
+ 	background-color: black;
+}
+
+.s_two {
+	height:90px;
+ 	width:50px;
+ 	border-radius: 75px 0 0 75px;
+ 	margin-left: -100px;
+ 	margin-bottom: 100px;
+ 	background-color: black;
+}
+
+.t_one {
+	width: 65px;
+	height: 200px;
+	background-color: black;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+.t_two{
+	width: 65px;
+	height: 200px;
+	background-color: black;
+	
+}
+.u_one {
+	height:100px;
+ 	width: 150px;
+ 	border-radius: 0 0 100px 100px;
+ 	background-color: black;
+ 	margin: 120px 0 0 0;
+}
+
+.v_one {
+	width: 0;
+	height: 0;
+	border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+	border-top: 220px solid black;
+}
+
+.w_one{
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 220px solid black;
+}
+
+.w_two{
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 220px solid black;
+}
+.w_three{
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 220px solid black;
+}
+
+.x_one{
+	width: 0;
+	height: 0;
+	border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+	border-top: 110px solid black;
+}
+.x_two{
+	width: 0;
+	height: 0;
+	border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+	border-bottom:110px solid black;
+}
+
+.y_one{
+	width: 0;
+	height: 0;
+	border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+	border-top: 130px solid black;
+}
+
+
+.z_one{
+	width: 0;
+	height: 0;
+	border-left: 125px solid transparent;
+	border-right: 125px solid black;
+	border-top: 220px solid transparent;
+	margin-bottom: -220px;
+	margin-left: -100px;
+}
+
+.z_two{
+	width: 0;
+	height: 0;
+	border-left: 125px solid black;
+	border-right: 125px solid transparent;
+	border-bottom: 220px solid transparent;
+	
+}
+
+
