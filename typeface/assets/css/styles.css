@@ -13,15 +13,33 @@ body {
 div {
 	display: inline-block;
 	
+	
+}
+input{
+	position: fixed;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%);
+	width: 300px;
+	height: 90px;
+	font-size: 20px;
+	font-style: "helvetica";
+
+}
+
+
+.all_letters{
+	display: none;
+
 }
 
 .lettera, .letterb, .letterc, .letterd, .lettere, .letterf, .letterg, .letterh, .letteri, .letterj, .letterk, .letterl, .letterm, .lettern, .lettero, .letterp, .letterq, .letterr, .letters, .lettert, .letteru, .letterv, .letterw, .letterx, .lettery, .letterz {
+	display:inline;
 	width: 150px;
 	height: 220px;
 	/*background-color: gray;*/
-	overflow: hidden;
-	position: relative;
 	margin: 20px 20px 60px 60px;
+	
 }
 
 .a_one {
