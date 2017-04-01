@@ -15,7 +15,15 @@ div {
 	
 	
 }
-input{
+
+#txt {
+	font-size: 12pt;
+	font-family: "gibson";
+	position: fixed;
+	top: 5%;
+	right: 5%;
+}
+/*input{
 	position: fixed;
 	top: 20%;
 	left: 50%;
@@ -25,7 +33,7 @@ input{
 	font-size: 20px;
 	font-style: "helvetica";
 
-}
+}*/
 
 
 .all_letters{
