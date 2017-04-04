@@ -16,24 +16,50 @@ div {
 	
 }
 
-#txt {
-	font-size: 12pt;
+#clock {
+	font-size: 36px;
 	font-family: "gibson";
 	position: fixed;
 	top: 5%;
 	right: 5%;
-}
-/*input{
+	}
+
+
+input{
 	position: fixed;
-	top: 20%;
+	top: 50%;
 	left: 50%;
-	transform: translate(-50%);
+	transform: translate(-50%, -50%);
 	width: 300px;
 	height: 90px;
-	font-size: 20px;
+	font-size: 60px;
+	border: none;
 	font-style: "helvetica";
+	box-shadow: none;
+	
+}
+input:focus {
+    outline:none;
+}
 
-}*/
+.cursor {
+	font-size: 100px;
+	position: fixed;
+	top: 50%;
+	left: 38%;
+	transform: translate(-50%, -50%);
+	animation-name: blinker;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
 
 
 .all_letters{
@@ -41,14 +67,16 @@ div {
 
 }
 
-.lettera, .letterb, .letterc, .letterd, .lettere, .letterf, .letterg, .letterh, .letteri, .letterj, .letterk, .letterl, .letterm, .lettern, .lettero, .letterp, .letterq, .letterr, .letters, .lettert, .letteru, .letterv, .letterw, .letterx, .lettery, .letterz {
-	display:inline;
+.letter-outer {
+	display:inline-block;
 	width: 150px;
-	height: 220px;
+	height: 200px;
 	/*background-color: gray;*/
 	margin: 20px 20px 60px 60px;
 	
 }
+
+
 
 .a_one {
 	width: 0;
