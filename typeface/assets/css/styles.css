@@ -8,13 +8,21 @@ body {
 	margin: 0;
 	padding: 0;
 	
+	
 }
 
 div {
 	display: inline-block;
-	
-	
 }
+
+/*.paragraph p {
+	font-size: 80pt;
+	font-family: "gibson";
+	position: absolute;
+	top: 0;
+	left: 0;
+}*/
+
 
 #clock {
 	font-size: 36px;
@@ -24,56 +32,24 @@ div {
 	right: 5%;
 	}
 
-
-input{
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	width: 300px;
-	height: 90px;
-	font-size: 60px;
-	border: none;
-	font-style: "helvetica";
-	box-shadow: none;
-	
+.position {
+	display: inline;
 }
-input:focus {
-    outline:none;
-}
-
-.cursor {
-	font-size: 100px;
-	position: fixed;
-	top: 50%;
-	left: 38%;
-	transform: translate(-50%, -50%);
-	animation-name: blinker;
-    animation-duration: 1s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-}
-
-@keyframes blinker {  
-    0% { opacity: 1.0; }
-    50% { opacity: 0.0; }
-    100% { opacity: 1.0; }
-}
-
-
 
 .all_letters{
 	display: none;
 
+
+
 }
 
 .letter-outer {
-	display:inline-block;
 	width: 150px;
 	height: 200px;
 	/*background-color: gray;*/
 	margin: 20px 20px 60px 60px;
-	
+	position: relative;
+	z-index: 100;
 }
 
 
@@ -84,6 +60,8 @@ input:focus {
 	border-left: 75px solid transparent;
 	border-right: 75px solid transparent;
 	border-bottom: 130px solid black;
+	position: absolute;
+	
 }
 
 .b_one {
@@ -92,6 +70,8 @@ input:focus {
  	border-radius: 0 75px 75px 0;
  	margin-left: 60px;
  	background-color: black;
+ 	position: absolute;
+ 
 }
 
 .b_two {
@@ -100,6 +80,8 @@ input:focus {
  	border-radius: 0 57px 57px 0;
  	margin: 5px 0 0 60px;
  	background-color: black;
+ 	position: absolute;
+ 	
 }
 
 .c_one {
@@ -108,6 +90,8 @@ input:focus {
  	border-radius: 120px 0 0 120px;
  	background-color: black;
  	margin: 50px 0 0 35px;
+ 	position: absolute;
+ 	
 }
 
 .d_one {
@@ -116,6 +100,8 @@ input:focus {
  	border-radius: 0 57px 57px 0;
  	margin: 50px 0 0 35px;
  	background-color: black;
+ 	position: absolute;
+ 	
 }
 
 .e_one {
@@ -123,6 +109,8 @@ input:focus {
 	height: 80px;
 	background-color: black;
 	margin: 20px 20px 0 20px;
+	position: absolute;
+	
 
 }
 
@@ -131,6 +119,7 @@ input:focus {
 	height: 80px;
 	background-color: black;
 	margin: 20px 0 0 20px;
+	position: absolute;
 }
 
 .f_one {
@@ -138,6 +127,7 @@ input:focus {
 	height: 80px;
 	background-color: black;
 	margin: 20px 0 0 20px;
+	position: absolute;
 }
 
 .f_two {
@@ -145,6 +135,7 @@ input:focus {
 	height: 100px;
 	background-color: black;
 	margin: 20px 0 0 20px;
+	position: absolute;
 }
 
 .g_one{
@@ -153,6 +144,7 @@ input:focus {
  	border-radius: 100px 100px 0 0;
  	background-color: black;
  	margin: 0 0 10px 0;
+ 	position: absolute;
 }
 
 .g_two {
@@ -160,6 +152,7 @@ input:focus {
 	height: 100px;
 	background-color: black;
 	margin: 10px 0 0 0;
+	position: absolute;
 }
 
 .h_one, .h_two {
@@ -167,6 +160,7 @@ input:focus {
 	height: 100px;
 	background-color: black;
 	margin: 0 20px 20px 20px;
+	position: absolute;
 }
 
 .i_one {
@@ -174,6 +168,7 @@ input:focus {
 	height: 220px;
 	background-color: black;
 	margin: 0 60px 0 60px;
+	position: absolute;
 }
 
 .j_one {
@@ -182,6 +177,7 @@ input:focus {
  	border-radius: 0 0 100px 100px;
  	background-color: black;
  	margin: 170px 0 0 40px;
+ 	position: absolute;
 }
 
 
@@ -193,6 +189,7 @@ input:focus {
 	border-top: 110px solid transparent;
 	margin-right: -20px;
 	margin-left: 75px;
+	position: absolute;
 }
 
 .k_two{
@@ -202,6 +199,7 @@ input:focus {
 	border-right: 110px solid transparent;
 	border-top: 150px solid transparent;
 	margin-top: -220px;
+	position: absolute;
 	
 
 }
@@ -213,6 +211,7 @@ input:focus {
 	border-bottom: 150px solid transparent;
 	margin-top: -220px;
 	margin-bottom: 220px;	
+	position: absolute;
 	
 }
 
@@ -221,6 +220,7 @@ input:focus {
 	height: 220px;
 	background-color: black;
 	margin: 0 45px 0 45px;
+	position: absolute;
 }
 
 .m_one {
@@ -229,6 +229,7 @@ input:focus {
 	border-left: 70px solid black;
 	border-right: 75px solid transparent;
 	border-top: 220px solid transparent;
+	position: absolute;
 
 }
 
@@ -239,6 +240,7 @@ input:focus {
 	border-right: 75px solid black;
 	border-top: 220px solid transparent;
 	margin: -220px 0 0 5px;
+	position: absolute;
 	
 }
 
@@ -248,6 +250,7 @@ input:focus {
 	border-left: 125px solid black;
 	border-right: 125px solid transparent;
 	border-top: 220px solid transparent;
+	position: absolute;
 }
 
 .n_two{
@@ -258,6 +261,7 @@ input:focus {
 	border-bottom: 220px solid transparent;
 	margin-top:-220px;
 	margin-left: -100px;
+	position: absolute;
 }
 
 .o_one{
@@ -266,6 +270,7 @@ input:focus {
 	background-color: black;
 	border-radius: 50px;
 	margin: 60px 0 0 25px;
+	position: absolute;
 }
 
 .p_one {
@@ -275,6 +280,7 @@ input:focus {
  	margin-left: 80px;
  	margin-top: 20px;
  	background-color: black;
+ 	position: absolute;
 }
 
 .q_one {
@@ -283,6 +289,7 @@ input:focus {
 	background-color: black;
 	border-radius: 50px;
 	margin: 90px 0 0 25px;
+	position: absolute;
 }
 
 .q_two {
@@ -292,6 +299,7 @@ input:focus {
 	border-right: 75px solid black;
 	border-top: 50px solid transparent;
 	margin: -20px 0 0 5px;
+	position: absolute;
 }
 
 .r_one{
@@ -300,6 +308,7 @@ input:focus {
  	border-radius: 0 75px 75px 0;
  	margin-left: 45px;
  	background-color: black;
+ 	position: absolute;
 }
 
 .r_two {
@@ -309,6 +318,7 @@ input:focus {
 	border-right: 75px solid transparent;
 	border-top: 130px solid transparent;
 	margin-left: 45px;
+	position: absolute;
 }
 
 .s_one {
@@ -318,6 +328,7 @@ input:focus {
  	margin-left: 75px;
  	margin-top: 115px;
  	background-color: black;
+ 	position: absolute;
 }
 
 .s_two {
@@ -327,6 +338,7 @@ input:focus {
  	margin-left: -100px;
  	margin-bottom: 100px;
  	background-color: black;
+ 	position: absolute;
 }
 
 .t_one {
@@ -335,12 +347,14 @@ input:focus {
 	background-color: black;
 	margin-top: 20px;
 	margin-right: 20px;
+	position: absolute;
 }
 
 .t_two{
 	width: 65px;
 	height: 200px;
 	background-color: black;
+	position: absolute;
 	
 }
 .u_one {
@@ -349,6 +363,7 @@ input:focus {
  	border-radius: 0 0 100px 100px;
  	background-color: black;
  	margin: 120px 0 0 0;
+ 	position: absolute;
 }
 
 .v_one {
@@ -357,6 +372,7 @@ input:focus {
 	border-left: 75px solid transparent;
 	border-right: 75px solid transparent;
 	border-top: 220px solid black;
+	position: absolute;
 }
 
 .w_one{
@@ -365,6 +381,7 @@ input:focus {
 	border-left: 25px solid transparent;
 	border-right: 25px solid transparent;
 	border-top: 220px solid black;
+	position: absolute;
 }
 
 .w_two{
@@ -373,6 +390,7 @@ input:focus {
 	border-left: 25px solid transparent;
 	border-right: 25px solid transparent;
 	border-bottom: 220px solid black;
+	position: absolute;
 }
 .w_three{
 	width: 0;
@@ -380,6 +398,7 @@ input:focus {
 	border-left: 25px solid transparent;
 	border-right: 25px solid transparent;
 	border-top: 220px solid black;
+	position: absolute;
 }
 
 .x_one{
@@ -388,6 +407,7 @@ input:focus {
 	border-left: 75px solid transparent;
 	border-right: 75px solid transparent;
 	border-top: 110px solid black;
+	position: absolute;
 }
 .x_two{
 	width: 0;
@@ -395,6 +415,7 @@ input:focus {
 	border-left: 75px solid transparent;
 	border-right: 75px solid transparent;
 	border-bottom:110px solid black;
+	position: absolute;
 }
 
 .y_one{
@@ -403,6 +424,7 @@ input:focus {
 	border-left: 75px solid transparent;
 	border-right: 75px solid transparent;
 	border-top: 130px solid black;
+	position: absolute;
 }
 
 
@@ -414,6 +436,7 @@ input:focus {
 	border-top: 220px solid transparent;
 	margin-bottom: -220px;
 	margin-left: -100px;
+	position: absolute;
 }
 
 .z_two{
@@ -422,7 +445,49 @@ input:focus {
 	border-left: 125px solid black;
 	border-right: 125px solid transparent;
 	border-bottom: 220px solid transparent;
+	position: absolute;
 	
 }
+
+.space {
+
+	width: 100px;
+	height: 120px;
+	font-size: 0;
+    display: inline-block;
+    margin: 1px;
+}
+
+
+.type {
+  display: inline-block;
+  position: absolute;
+  top: 30%;
+  left: 4%;
+  vertical-align: top;
+
+ }
+
+.type:after {
+  content:"|";
+  font-size: 290px;
+  animation: 1s blink step-end infinite;
+  display: inline-block;
+  
+}
+
+
+
+
+@keyframes blink {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+.vertical {
+	vertical-align: top;
+}
+
 
 

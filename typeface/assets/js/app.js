@@ -2,6 +2,9 @@
 var elapsedTime = 00;
 var elapsedMinute = 00;
 var elapsedHour = 00;
+var entryCount = 0;
+var topVal = 5;
+
 
 setInterval(function(){ 
 	elapsedTime++;
@@ -15,8 +18,7 @@ setInterval(function(){
 	if (elapsedTime == 60) {
 		elapsedTime = 0;
 		elapsedMinute = elapsedMinute + 1;
-	}
-
+	} 
 	if (elapsedMinute == 60) {
 		elapsedMinute = 0;
 		elapsedHour = elapsedHour+ 1;
@@ -26,13 +28,23 @@ setInterval(function(){
 		
 	}
 
-	$("#clock").html("0" + elapsedHour +":" + "0" + elapsedMinute + ":" + elapsedTime);
+
+	$("#clock").html("0" + elapsedHour +":" + "0" + elapsedMinute + ":"  + elapsedTime);
+	topVal = topVal + 20;
+	$(".stage .letter-outer").each(function() {
+			// $(this).append($(this).find("div").clone().css("top",topVal + "px"));
+			// $(this).append($(this).find("div").clone().css("left",topVal + "px"));
+			// $(this).append($(this).find("div").clone().css("left",topVal + "px"));
+			// $(this).append($(this).find("div").clone().css("bottom",topVal + "px"));
+	})
 }, 1000);
 
 
 
 $(window).keypress(function(e){
-	console.log(e.which);
+	console.log(e);
+
+
 	if(e.which == 97) {
 		$(".stage").append($(".lettera").clone().removeClass("lettera"));
 	}
@@ -111,12 +123,26 @@ $(window).keypress(function(e){
 	if(e.which == 122) {
 		$(".stage").append($(".letterz").clone().removeClass("letterz"));
 	}
+	  if (e.which == 32) {
+    $(".stage").append($(".space_mark").clone().removeClass("space_mark"));
+  }
+	
 });
 
-$("#texthere").click(function(){
+// function deleteElement() {
+// 	$(".letter-outer").last().remove();
 
-	$(".cursor").removeClass("cursor");
-});
+// }
+
+// $(window).keydown(function(e){
+// 	console.log(e);
+// 	if(e.which == 8){
+// 		e.preventDefault();
+// 		entryCount ++;
+// 		console.log("entry #" + entryCount + ":" + e.which + "| BKSP");
+// 		deleteElement()
+// 	}
+
 
 
 
