@@ -1,27 +1,34 @@
 
-var elapsedTime = 00;
-var elapsedMinute = 00;
-var elapsedHour = 00;
-var entryCount = 0;
-var topVal = 5;
+var elapsedSecond = 0;
+var elapsedMinute = 0;
+var elapsedHour = 0;
+var elapsedSecondStr = "00";
+var elapsedMinuteStr = "00";
+var elapsedHourStr = "00";
+// var entryCount = 0;
+var topVal = 1;
 
+var letters_pressed = 0;
+var position_to_use = "";
 
 setInterval(function(){ 
-	elapsedTime++;
-	if (elapsedTime < 10) {
-		$("#clock").html("0" + elapsedTime);
+	elapsedSecond++;
+	if (elapsedSecond < 10) {
+		elapsedSecondStr = "0" + elapsedSecond;
 	} else {
-			$("#clock").html(elapsedTime);
+		elapsedSecondStr = elapsedSecond;
 
 	}
 
-	if (elapsedTime == 60) {
-		elapsedTime = 0;
-		elapsedMinute = elapsedMinute + 1;
+
+	if (elapsedSecond == 60) {
+		elapsedSecond = 0;
+		elapsedMinute++;
+
 	} 
 	if (elapsedMinute == 60) {
 		elapsedMinute = 0;
-		elapsedHour = elapsedHour+ 1;
+		elapsedHour++;
 	}
 	if (elapsedHour == 13) {
 		elapsedHour = 1;
@@ -29,105 +36,122 @@ setInterval(function(){
 	}
 
 
-	$("#clock").html("0" + elapsedHour +":" + "0" + elapsedMinute + ":"  + elapsedTime);
-	topVal = topVal + 20;
-	$(".stage .letter-outer").each(function() {
-			// $(this).append($(this).find("div").clone().css("top",topVal + "px"));
-			// $(this).append($(this).find("div").clone().css("left",topVal + "px"));
-			// $(this).append($(this).find("div").clone().css("left",topVal + "px"));
-			// $(this).append($(this).find("div").clone().css("bottom",topVal + "px"));
+	$("#clock").html("0" + elapsedHour +":" + "0" + elapsedMinute + ":"  + elapsedSecondStr);
+	topVal = topVal + 5;
+
+	$(".spot").each(function() {
+		
+		if ($(this).children().length > 0) {
+			$(this).append($(this).children().last().clone());
+			// $(this).children().css("top",topVal + "px");
+			$(this).append($(this).children().last().css("top",topVal + "px"));
+			$(this).append($(this).children().last().css("left",topVal + "px"));
+		} 
+
 	})
 }, 1000);
 
 
+$(function(){
+    $(".stage").scroll(function(){
+        $(".letter-outer").html($(this).scrollTop());
+    });
+    
+});
 
 $(window).keypress(function(e){
 	console.log(e);
 
+	letters_pressed+=1;
+	position_to_use = ".p" + letters_pressed;
+
 
 	if(e.which == 97) {
-		$(".stage").append($(".lettera").clone().removeClass("lettera"));
+		$(position_to_use).append($(".lettera").clone().removeClass("lettera"));
+
 	}
 	if(e.which == 98) {
-		$(".stage").append($(".letterb").clone().removeClass("letterb"));
+		$(position_to_use).append($(".letterb").clone().removeClass("letterb"));
 	}
 	if(e.which == 99) {
-		$(".stage").append($(".letterc").clone().removeClass("letterc"));
+		$(position_to_use).append($(".letterc").clone().removeClass("letterc"));
 	}
 	if(e.which == 100) {
-		$(".stage").append($(".letterd").clone().removeClass("letterd"));
+		$(position_to_use).append($(".letterd").clone().removeClass("letterd"));
 	}
 	if(e.which == 101) {
-		$(".stage").append($(".lettere").clone().removeClass("lettere"));
+		$(position_to_use).append($(".lettere").clone().removeClass("lettere"));
 	}
 	if(e.which == 102) {
-		$(".stage").append($(".letterf").clone().removeClass("letterf"));
+		$(position_to_use).append($(".letterf").clone().removeClass("letterf"));
 	}
 	if(e.which == 103) {
-		$(".stage").append($(".letterg").clone().removeClass("letterg"));
+		$(position_to_use).append($(".letterg").clone().removeClass("letterg"));
 	}
 	if(e.which == 104) {
-		$(".stage").append($(".letterh").clone().removeClass("letterh"));
+		$(position_to_use).append($(".letterh").clone().removeClass("letterh"));
 	}
 	if(e.which == 105) {
-		$(".stage").append($(".letteri").clone().removeClass("letteri"));
+		$(position_to_use).append($(".letteri").clone().removeClass("letteri"));
 	}
 	if(e.which == 106) {
-		$(".stage").append($(".letterj").clone().removeClass("letterj"));
+		$(position_to_use).append($(".letterj").clone().removeClass("letterj"));
 	}
 	if(e.which == 107) {
-		$(".stage").append($(".letterk").clone().removeClass("letterk"));
+		$(position_to_use).append($(".letterk").clone().removeClass("letterk"));
 	}
 	if(e.which == 108) {
-		$(".stage").append($(".letterl").clone().removeClass("letterl"));
+		$(position_to_use).append($(".letterl").clone().removeClass("letterl"));
 	}
 	if(e.which == 109) {
-		$(".stage").append($(".letterm").clone().removeClass("letterm"));
+		$(position_to_use).append($(".letterm").clone().removeClass("letterm"));
 	}
 	if(e.which == 110) {
-		$(".stage").append($(".lettern").clone().removeClass("lettern"));
+		$(position_to_use).append($(".lettern").clone().removeClass("lettern"));
 	}
 	if(e.which == 111) {
-		$(".stage").append($(".lettero").clone().removeClass("lettero"));
+		$(position_to_use).append($(".lettero").clone().removeClass("lettero"));
 	}
 	if(e.which == 112) {
-		$(".stage").append($(".letterp").clone().removeClass("letterp"));
+		$(position_to_use).append($(".letterp").clone().removeClass("letterp"));
 	}
 	if(e.which == 113) {
-		$(".stage").append($(".letterq").clone().removeClass("letterq"));
+		$(position_to_use).append($(".letterq").clone().removeClass("letterq"));
 	}
 	if(e.which == 114) {
-		$(".stage").append($(".letterr").clone().removeClass("letterr"));
+		$(position_to_use).append($(".letterr").clone().removeClass("letterr"));
 	}
 	if(e.which == 115) {
-		$(".stage").append($(".letters").clone().removeClass("letters"));
+		$(position_to_use).append($(".letters").clone().removeClass("letters"));
 	}
 	if(e.which == 116) {
-		$(".stage").append($(".lettert").clone().removeClass("lettert"));
+		$(position_to_use).append($(".lettert").clone().removeClass("lettert"));
 	}
 	if(e.which == 117) {
-		$(".stage").append($(".letteru").clone().removeClass("letteru"));
+		$(position_to_use).append($(".letteru").clone().removeClass("letteru"));
 	}
 	if(e.which == 118) {
-		$(".stage").append($(".letterv").clone().removeClass("letterv"));
+		$(position_to_use).append($(".letterv").clone().removeClass("letterv"));
 	}
 	if(e.which == 119) {
-		$(".stage").append($(".letterw").clone().removeClass("letterw"));
+		$(position_to_use).append($(".letterw").clone().removeClass("letterw"));
 	}
 	if(e.which == 120) {
-		$(".stage").append($(".letterx").clone().removeClass("letterx"));
+		$(position_to_use).append($(".letterx").clone().removeClass("letterx"));
 	}
 	if(e.which == 121) {
-		$(".stage").append($(".lettery").clone().removeClass("lettery"));
+		$(position_to_use).append($(".lettery").clone().removeClass("lettery"));
 	}
 	if(e.which == 122) {
-		$(".stage").append($(".letterz").clone().removeClass("letterz"));
+		$(position_to_use).append($(".letterz").clone().removeClass("letterz"));
 	}
 	  if (e.which == 32) {
-    $(".stage").append($(".space_mark").clone().removeClass("space_mark"));
+    $(position_to_use).append($(".space_mark").clone().removeClass("space_mark"));
   }
 	
 });
+
+
 
 // function deleteElement() {
 // 	$(".letter-outer").last().remove();
@@ -142,6 +166,7 @@ $(window).keypress(function(e){
 // 		console.log("entry #" + entryCount + ":" + e.which + "| BKSP");
 // 		deleteElement()
 // 	}
+
 
 
 
