@@ -26,6 +26,14 @@ setInterval(function(){
 		elapsedMinute++;
 
 	} 
+	if (elapsedMinute < 10) {
+		elapsedMinuteStr = "0" + elapsedMinute;
+	} else {
+		elapsedMinuteStr = elapsedMinute;
+
+	}
+
+
 	if (elapsedMinute == 60) {
 		elapsedMinute = 0;
 		elapsedHour++;
@@ -46,6 +54,7 @@ setInterval(function(){
 			// $(this).children().css("top",topVal + "px");
 			$(this).append($(this).children().last().css("top",topVal + "px"));
 			$(this).append($(this).children().last().css("left",topVal + "px"));
+			$(".spot").css("top",topVal + "px");
 		} 
 
 	})
