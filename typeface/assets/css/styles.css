@@ -22,6 +22,14 @@ body {
   transform: translate(-50%, -50%);
   z-index: 200;
 }
+.refresh p {
+	font-family: "gibson";
+	font-size: 12pt;
+	position: fixed;
+	top: 10%;
+	left: 5%;
+	cursor: pointer;
+}
 
 .spot {
 	display: inline-block;

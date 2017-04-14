@@ -161,7 +161,9 @@ $(window).keypress(function(e){
 });
 
 
-
+$(".refresh").click(function() {
+	window.location.reload ();
+});
 // function deleteElement() {
 // 	$(".letter-outer").last().remove();
 
