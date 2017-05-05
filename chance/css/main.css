@@ -1,38 +1,154 @@
 body {
-    background-color:#D8B9B9;
+    font-size: 0;
     margin: 0;
-    padding: 0;
+    padding: 20px;
+}
+.poets a h1 {
+        font-family: "avenir";
+        font-weight: "bolder";
+        font-size: 100px;
+        text-align: center;
+        font-variant: "oblique";
+        text-decoration: underline;
+        color: black;
+        line-height: 60px;
 }
 
-.poem_name {
-    color: white;
-    font-size: 60px;
+.poet {
+    font-family: "avenir";
+    font-size: 10pt;
+    text-align: center;
+    position: fixed;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+#quoteDisplay {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bolder;
+    font-size: 70px;
+    color:black;
+    text-decoration: underline;
+   
+}
+
+#lineDisplay {
+    font-family:"avenir";
+    font-size: 10pt;
+    position: relative;
+}
+
+a {
+    color: black;
+}
+
+.lines ,.lines_two, .lines_three, .lines_four, .lines_five, .lines_six, .lines_seven, .lines_eight, .lines_nine, .lines_ten {
+    font-family:"avenir";
+    font-size: 10pt;
+    position: absolute;
+    cursor: move;
+
+}
+
+.poem {
+    font-family:"avenir";
+    font-size: 10pt;
+    position: absolute;
+    cursor: move;
+}
+
+
+
+.paragraphs h1 {
+    font-size: 10pt;
+    font-weight: lighter;
+    text-align: left;
+    margin-bottom: 150px;
+   margin-left: 10px;
+   padding: 10px;
+
+}
+
+.one {
+    position: fixed;
+    top: 5%;
+    left: 2%;
+}
+
+.two {
+     position: fixed;
+    top: 30%;
+    left: 2%;
+}
+
+.three {
+    position: fixed;
+    top: 55%;
+    left: 2%;
+}
+
+.four {
+    position: fixed;
+    top: 80%;
+    left: 2%;
+}
+
+.five {
+    position: fixed;
+    top: 105%;
+    left: 2%;
+}
+.six {
+    position: fixed;
+    top: 130%;
+    left: 2%;
+}
+
+
+.translate {
+    opacity: 0;
+    position: fixed;
+    top: 5%;
+    right: 5%;
+    width: 400px;
+    height: 200px;
+}
+
+.english {
+    opacity: 0;
+    padding: 10px;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+
+.homepage a {
+    width: 100%;
+    height: 10px;
+    background-color: black;
+    position: fixed;
+    top: 52%;
+    right: -97%;
+}
+
+.full a {
     font-family: "avenir";
     font-weight: bolder;
-    text-align: center;
-    position: fixed;
-    top: 15%;
-    left: 0;
-} 
-
-.square {
-    width: 50px;
-    height: 50px;
-    background-color: #ACCDF2;
-    position: fixed;
-    top: 65%;
-    left: 20%;
+    font-size: 24pt;
+    color: black;
+    text-decoration:none;
+    position: absolute;
+    bottom: 1%;
+    left: 50%;
+    transform: translate(-50%);
 }
 
-.text p {
-    font-size: 13px;
-    font-family: "avenir";
-    font-weight: lighter;
-    width: 400px;
-    height: 300px;
-    line-height: 20px;
-    text-align: center;
-    position: fixed;
-    top:20%;
-    left: 37%;
-}
+
+
+
+
