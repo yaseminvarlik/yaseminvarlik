@@ -70,14 +70,21 @@ $( ".homepage" ).mouseover(function() {
 
 
 $(".lines_five").mouseover(function(){
-	$(".english").css("opacity",1);
+	$(this).find(".english").css("opacity",1);
 $(".lines_five").mouseleave(function(){
 	$(".english").css("opacity",0);
 });
 });
 
 
+$(".full").hide(1).delay(5000).show(1);
 
+$(".full").click(function(){
+	$(".lines_five").toggle("hide");
+	$(".p5").toggleClass("hide");
+	$(".version_five").toggleClass("hide");
+	
+});
 
 
 

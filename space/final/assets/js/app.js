@@ -32,7 +32,6 @@ $(".rectangles_fourteen").click(function() {
 $(".rectangles_ten").click(function(){
 	$(".total").toggle("hide");
 	$(".text").toggleClass("hide");
-
 	
 });
 

@@ -33,7 +33,7 @@ $('.lines_three').each(function(){
 $( ".lines_three" ).draggable();
 
 $(".lines_three").mouseover(function(){
-	$(".english").css("opacity",1);
+	$(this).find(".english").css("opacity",1);
 $(".lines_three").mouseleave(function(){
 	$(".english").css("opacity",0);
 });
@@ -51,4 +51,13 @@ $( ".homepage" ).mouseover(function() {
   }, 500,function() {
   	goToHomePage("index.html");
   });
+});
+
+$(".full").hide(1).delay(5000).show(1);
+
+$(".full").click(function(){
+	$(".lines_three").toggle("hide");
+	$(".p3").toggleClass("hide");
+	$(".version_three").toggleClass("hide");
+	
 });

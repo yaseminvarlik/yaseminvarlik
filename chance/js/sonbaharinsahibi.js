@@ -39,7 +39,7 @@ $('.lines_ten').each(function(){
 $( ".lines_ten" ).draggable();
 
 $(".lines_ten").mouseover(function(){
-	$(".english").css("opacity",1);
+	$(this).find(".english").css("opacity",1);
 $(".lines_ten").mouseleave(function(){
 	$(".english").css("opacity",0);
 });
@@ -58,6 +58,11 @@ $( ".homepage" ).mouseover(function() {
   });
 });
 
+$(".full").hide(1).delay(5000).show(1);
 
-
-
+$(".full").click(function(){
+	$(".lines_ten").toggle("hide");
+	$(".p10").toggleClass("hide");
+	$(".version_ten").toggleClass("hide");
+	
+});

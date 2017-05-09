@@ -31,7 +31,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     font-weight: bolder;
-    font-size: 70px;
+    font-size: 40pt;
     color:black;
     text-decoration: underline;
    
@@ -41,6 +41,7 @@ body {
     font-family:"avenir";
     font-size: 10pt;
     position: relative;
+    
 }
 
 a {
@@ -129,26 +130,51 @@ a {
 
 .homepage a {
     width: 100%;
-    height: 10px;
+    height: 6px;
     background-color: black;
     position: fixed;
     top: 52%;
     right: -97%;
 }
 
-.full a {
+.full p {
     font-family: "avenir";
     font-weight: bolder;
-    font-size: 24pt;
-    color: black;
-    text-decoration:none;
-    position: absolute;
+    font-size: 23pt;
+    position: fixed;
     bottom: 1%;
-    left: 50%;
-    transform: translate(-50%);
+    right: 1%;
+    cursor: pointer;
+
 }
 
 
 
+.p2, .p1, .p3, .p4, .p5, .p6, .p7, .p8, .p9, .p10  {
+   font-family:"avenir";
+    font-size: 10pt;
+    position: absolute;
+    top: 5%;
+    left: 7%;
+    display: inline-block; 
+    line-height: 30px;
+}
+
+.version_nine, .version_one, .version_two, .version_three, .version_four, .version_five, .version_six, .version_seven, .version_eight, .version_ten {
+    font-family:"avenir";
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 10pt;
+    position: absolute;
+    top: 5%;
+    left: 35%;
+    display: inline-block; 
+    line-height: 30px;
+}
+
+
+.hide {
+    display: none;
+}
 
 

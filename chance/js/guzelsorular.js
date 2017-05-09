@@ -34,7 +34,7 @@ $('.lines_six').each(function(){
 $( ".lines_six" ).draggable();
 
 $(".lines_six").mouseover(function(){
-	$(".english").css("opacity",1);
+	$(this).find(".english").css("opacity",1);
 $(".lines_six").mouseleave(function(){
 	$(".english").css("opacity",0);
 });
@@ -51,4 +51,13 @@ $( ".homepage" ).mouseover(function() {
   }, 500,function() {
   	goToHomePage("index.html");
   });
+});
+
+$(".full").hide(1).delay(5000).show(1);
+
+$(".full").click(function(){
+	$(".lines_six").toggle("hide");
+	$(".p6").toggleClass("hide");
+	$(".version_six").toggleClass("hide");
+	
 });

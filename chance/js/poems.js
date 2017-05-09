@@ -64,7 +64,12 @@ $(".lines").mouseleave(function(){
 $(".full").hide(1).delay(5000).show(1);
 
 
- 
+$(".full").click(function(){
+	$(".lines").toggle("hide");
+	$(".p1").toggleClass("hide");
+	$(".version_one").toggleClass("hide");
+	
+});
 
 
 

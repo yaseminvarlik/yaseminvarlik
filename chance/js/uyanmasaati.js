@@ -38,7 +38,7 @@ $('.lines_four').each(function(){
 $( ".lines_four" ).draggable();
 
 $(".lines_four").mouseover(function(){
-	$(".english").css("opacity",1);
+	$(this).find(".english").css("opacity",1);
 $(".lines_four").mouseleave(function(){
 	$(".english").css("opacity",0);
 });
@@ -57,4 +57,11 @@ $( ".homepage" ).mouseover(function() {
   });
 });
 
+$(".full").hide(1).delay(5000).show(1);
 
+$(".full").click(function(){
+	$(".lines_four").toggle("hide");
+	$(".p4").toggleClass("hide");
+	$(".version_four").toggleClass("hide");
+	
+});

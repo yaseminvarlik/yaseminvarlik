@@ -15,7 +15,7 @@ var cingeneArabasi = ["Yeşil bir çingene vagonudur İzmir <span class='english
 					"Ve bu görev güzeldir <span class='english'>And this is duty is nice</span>",
 					"Hafta sonları hafta içini unutarak <span class='english'>On the weekends forgetting the weekdays</span>",
 					"Cuma geceleri yüz elliyle karşılanacak <span class='english'>On friday nights welcomed by hundred and fifty</span>",
-					"Bu yeşil dünyanın karargâhında yakılır ateş <span class='english'>The fire is lit on the headquarters of this green world i</span>",
+					"Bu yeşil dünyanın karargâhında yakılır ateş <span class='english'>The fire is lit on the headquarters of this green world</span>",
 					"Şarabın kırmızısına bir ışık vurur <span class='english'>It reflects light on to the redness of wine </span>",
 					"Bir Yanlış Kuşu konar vagonun tepesine <span class='english'>A bird of mistakes perches on top of the wagon</span>",
 					"Yanlışları yiyerek bütünler haftayı <span class='english'>It completes the week by eating away the mistakes</span>",
@@ -44,7 +44,7 @@ $('.lines_eight').each(function(){
 $( ".lines_eight" ).draggable();
 
 $(".lines_eight").mouseover(function(){
-	$(".english").css("opacity",1);
+	$(this).find(".english").css("opacity",1);
 $(".lines_eight").mouseleave(function(){
 	$(".english").css("opacity",0);
 });
@@ -63,3 +63,11 @@ $( ".homepage" ).mouseover(function() {
   });
 });
 
+$(".full").hide(1).delay(5000).show(1);
+
+$(".full").click(function(){
+	$(".lines_eight").toggle("hide");
+	$(".p8").toggleClass("hide");
+	$(".version_eight").toggleClass("hide");
+	
+});

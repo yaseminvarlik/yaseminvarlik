@@ -14,7 +14,7 @@ var yolCicekleri = ["İşte yolculuk kuralı: olmayanı git yaşa <span class='e
 					"Yine de bin git sen Oğuz <span class='english'>Even so get on and leave Oğuz</span>",
 					"Büyük bir serüveni düşleyebilenler yaşar ancak <span class='english'>The ones who can dream a big adventure will experience</span>",
 					"Bak ve unutma <span class='english'>Look and dont forget</span>",
-					"Anlatmaya dön gel Oğuz <span class='english'>Come back to tell</span>"
+					"Anlatmaya dön gel Oğuz <span class='english'>Come back to tell, Oguz</span>"
 
 					]
 
@@ -53,10 +53,18 @@ $( ".homepage" ).mouseover(function() {
 
 
 $(".lines_nine").mouseover(function(){
-	$(".english").css("opacity",1);
+	$(this).find(".english").css("opacity",1);
 $(".lines_nine").mouseleave(function(){
 	$(".english").css("opacity",0);
 });
+});
+
+$(".full").hide(1).delay(5000).show(1);
+
+$(".full").click(function(){
+	$(".lines_nine").toggle("hide");
+	$(".p9").toggleClass("hide");
+	$(".version_nine").toggleClass("hide");
 });
 
 

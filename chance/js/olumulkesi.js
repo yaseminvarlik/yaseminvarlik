@@ -1,7 +1,7 @@
 var olumUlkesi = ["Gece bir karşı varlıktı karanlığıma <span class='english'>Night was an object against my darkness</span>",
 					"Gece tanımsız bir bütünlük <span class='english'>Night is an unknown whole </span>",
 					"Senin hayatını düşündüm <span class='english'>I thought about your life</span>",
-					"Sevmek sevgilinin suretine bürünmektir biraz da <span class='english'>to love is </span>",
+					"Sevmek sevgilinin suretine bürünmektir biraz da <span class='english'>to love is to transform yourself in the appearance of your beloved</span>",
 					"Sonbahar uzaktan bakmaktı sana <span class='english'>Autumn was looking at you from the distance</span>",
 					"Sonbahar yeniden ölüm <span class='english'>Autumn is re-death</span>",
 					"Mithatpaşa Caddesi’nde yürüyorum <span class='english'>I am walking on Mithatpasa street</span>",
@@ -23,7 +23,7 @@ var olumUlkesi = ["Gece bir karşı varlıktı karanlığıma <span class='engli
 					"Ölüm ülkesi karanlık bir gece <span class='english'>A world of deaths is a dark night</span>",
 					"Kimsenin tanıklığı yok sevgimize <span class='english'>No one has witnessed our love</span>",
 					"Gece kimsenin bilmediği bir ölüm ülkesidir <span class='english'>The night is the unknown world of the deaths</span>",
-					"Sevgilim bu sonbahar günlerinde <span class='english'><My love in these autumn days/span>",
+					"Sevgilim bu sonbahar günlerinde <span class='english'>My love in these autumn days</span>",
 					"Nadir olan şey yok gibidir <span class='english'>As if the rare things is absent</span>"
 
 				]
@@ -49,7 +49,7 @@ $('.lines_seven').each(function(){
 $( ".lines_seven" ).draggable();
 
 $(".lines_seven").mouseover(function(){
-	$(".english").css("opacity",1);
+	$(this).find(".english").css("opacity",1);
 $(".lines_seven").mouseleave(function(){
 	$(".english").css("opacity",0);
 });
@@ -68,4 +68,11 @@ $( ".homepage" ).mouseover(function() {
   });
 });
 
+$(".full").hide(1).delay(5000).show(1);
 
+$(".full").click(function(){
+	$(".lines_seven").toggle("hide");
+	$(".p7").toggleClass("hide");
+	$(".version_seven").toggleClass("hide");
+	
+});
