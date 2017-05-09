@@ -19,12 +19,12 @@ var olumUlkesi = ["Gece bir karşı varlıktı karanlığıma <span class='engli
 					"İşte bir kavram sevgimi tanımlayacak <span class='english'>Here is a concept defining my love </span>",
 					"Yanılsama yansır içinde bir vapur penceresinin <span class='english'>Illusion is reflected on the window of the boat</span>",
 					"Sevgilim gölgen gölgeni görüyorum senin <span class='english'>My love I see your shadow</span>",
-					"Kimse bilmeyecek yerini ölüm ülkesinin <span class='english'>No one is going to know your location in the world of death</span>",
-					"Ölüm ülkesi karanlık bir gece <span class='english'>A world of deaths is a dark night</span>",
+					"Kimse bilmeyecek yerini ölüm ülkesinin <span class='english'>No one is going to know the location of the world of death</span>",
+					"Ölüm ülkesi karanlık bir gece <span class='english'>A world of death is a dark night</span>",
 					"Kimsenin tanıklığı yok sevgimize <span class='english'>No one has witnessed our love</span>",
-					"Gece kimsenin bilmediği bir ölüm ülkesidir <span class='english'>The night is the unknown world of the deaths</span>",
+					"Gece kimsenin bilmediği bir ölüm ülkesidir <span class='english'>The night is the unknown world of the death</span>",
 					"Sevgilim bu sonbahar günlerinde <span class='english'>My love in these autumn days</span>",
-					"Nadir olan şey yok gibidir <span class='english'>As if the rare things is absent</span>"
+					"Nadir olan şey yok gibidir <span class='english'>As if the rare things are absent</span>"
 
 				]
 

@@ -5,7 +5,7 @@ var guzelAyrilik = ["Hani bir dal vardır, gövdeden çıkan,<span class='englis
 					 "Palamutun şekli şapkası güzel,<span class='english'>The shape of the acorn beautiful</span>", 
 					 "bıraksın meşeyi, dala tutunmasın,<span class='english'>lets the oak go, doesnt hold on to the branch</span>", 
 					 "düşsün yere şapkasıyla beraber,<span class='english'>falls to the ground with its hat</span>", 
-					 "tabii, şapkası onu meşeye bağlıyor.<span class='english'>of course, its hat is attaching it to the oak</span>", 
+					 "tabii, şapkası onu meşeye bağlıyor.<span class='english'>Of course, its hat is whats attaching it to the oak</span>", 
 					 "Bırak kendini öyle gövdesiz, dalsız,<span class='english'>Leave yourself without a trunk, without branches</span>", 
 					 "orada asılı huzur bulman imkansız,<span class='english'>it is impossible to find peace hanging like that</span>", 
 					 "düşeceğin yer de meşenin gölgesi,<span class='english'>the place you are going to fall is its shadow</span>", 

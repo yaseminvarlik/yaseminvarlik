@@ -7,7 +7,7 @@ var yolCicekleri = ["İşte yolculuk kuralı: olmayanı git yaşa <span class='e
 					"Bir başka zamanda bir başka hayat <span class='english'>In another time in another life</span>",
 					"İkisini birbirine bağla Oğuz <span class='english'>Tie those two together, Oğuz</span>",
 					"Küçük beyaz çiçekleri uğruna düşüncenin <span class='english'>Small white flowers for the sake of your thoughts</span>",
-					"Büyük dağlar aşacağız Oğuz <span class='english'>We are going to go over big mountains</span>",
+					"Büyük dağlar aşacağız Oğuz <span class='english'>We are going to go over big mountains Oguz</span>",
 					"Bir avize gibi ışırsa eğer gökyüzünde renkleri <span class='english'>if its colors shine like a chandelier in the sky </span>",
 					"Bulunur yol çiçekleri Oğuz <span class='english'>the flowers will be found Oğuz</span>",
 					"Hiçbir gemi kalkmıyor yaşanılmak istenene <span class='english'>None of the ships are taking off to the wanted to be lived </span>",
