@@ -12,7 +12,7 @@ var cingeneArabasi = ["Yeşil bir çingene vagonudur İzmir <span class='english
 					"Dünyaya inananların yer ülkesinde <span class='english'>In the country of people who believe in world</span>",
 					"Hoş vakit geçirmek için kararlı <span class='english'>Dedication to spend nice time</span>",
 					"Bir karargâh görevindedir deniz <span class='english'>The sea acts as an headquarter</span>", 
-					"Ve bu görev güzeldir <span class='english'>And this is duty is nice</span>",
+					"Ve bu görev güzeldir <span class='english'>And this duty is nice</span>",
 					"Hafta sonları hafta içini unutarak <span class='english'>On the weekends forgetting the weekdays</span>",
 					"Cuma geceleri yüz elliyle karşılanacak <span class='english'>On friday nights welcomed by hundred and fifty</span>",
 					"Bu yeşil dünyanın karargâhında yakılır ateş <span class='english'>The fire is lit on the headquarters of this green world</span>",
