@@ -53,7 +53,7 @@ $( ".homepage" ).mouseover(function() {
   });
 });
 $(".done").click(function(){
-	$(".english").css("opacity",1);
+	$(".english").css({"opacity": "1", "left": "-45%"});
 	$(".turkish").css("opacity",0);
 });
 

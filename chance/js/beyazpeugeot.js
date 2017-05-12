@@ -1,7 +1,7 @@
 var beyazPeugeot = ["<span class='turkish'>Güneşin altında radyo dinleyen çocuk </span> <span class='english'>A kid listening to the radio beneath the sun</span>",
 					"<span class='turkish'>Sen bu dünyaya mı aitsin</span> <span class='english'>Do you belong to this world </span>",
 					"<span class='turkish'>Hayatın nasıl olduğu değil </span><span class='english'>It is not how the life is, </span>", 
-					"<span class='turkish'>kimlerle olduğu önemli dersin </span><span class='english'>it is who's, is the importance (04)</span>",
+					"<span class='turkish'>kimlerle olduğu önemli dersin </span><span class='english'>it is who's, is the importance</span>",
 					"<span class='turkish'>Göğe ara sıra başını kaldır bak öyleyse</span> <span class='english'>Then, sometimes look at the sky</span>",
 					"<span class='turkish'>Kendine ait bir yıldız bulabilir misin</span> <span class='english'>Can you find a star that belongs to you </span>",
 					"<span class='turkish'>İçinde hiçbir şey olmayan bir dünya özlüyorsun </span><span class='english'>You are missing an empty world </span>",
@@ -76,7 +76,7 @@ $(".lines_five").mouseleave(function(){
 });
 });
 $(".done").click(function(){
-	$(".english").css("opacity",1);
+	$(".english").css({"opacity": "1", "left": "-45%"});
 	$(".turkish").css("opacity",0);
 });
 
