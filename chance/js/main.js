@@ -18,6 +18,12 @@ $(document).ready(function newQuote () {
 	$('#quoteDisplay').append(quotes[randomNumber]);
 });
 
+$("#quoteDisplay").mouseover(function(){
+	$(".note").css("opacity",1);
+});
+$("#quoteDisplay").mouseleave(function(){
+	$(".note").css("opacity",0);
+});
 
 
 

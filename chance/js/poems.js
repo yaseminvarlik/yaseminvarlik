@@ -1,15 +1,15 @@
-var guzelAyrilik = ["Hani bir dal vardır, gövdeden çıkan,<span class='english'>There is a branch, growing from the trunk</span>",
-					 "sonra bir dal daha o daldan çıkan,<span class='english'>then another branch growing from that branch,</span>", 
-					 "sonra bir dal daha, bir dal daha, <span class='english'>then another branch, another branch</span>", 
-					 "en son dalda güzel palamut duruyor.<span class='english'>on the last branch is a beautiful acorn </span>", 
-					 "Palamutun şekli şapkası güzel,<span class='english'>The shape of the acorn beautiful</span>", 
-					 "bıraksın meşeyi, dala tutunmasın,<span class='english'>lets the oak go, doesnt hold on to the branch</span>", 
-					 "düşsün yere şapkasıyla beraber,<span class='english'>falls to the ground with its hat</span>", 
-					 "tabii, şapkası onu meşeye bağlıyor.<span class='english'>Of course, its hat is whats attaching it to the oak</span>", 
-					 "Bırak kendini öyle gövdesiz, dalsız,<span class='english'>Leave yourself without a trunk, without branches</span>", 
-					 "orada asılı huzur bulman imkansız,<span class='english'>it is impossible to find peace hanging like that</span>", 
-					 "düşeceğin yer de meşenin gölgesi,<span class='english'>the place you are going to fall is its shadow</span>", 
-					 "güzel ayrılık orada bizi bekliyor.<span class='english'>a lovely seperation is waiting for us there.</span>"
+var guzelAyrilik = ["<span class='turkish'>Hani bir dal vardır, gövdeden çıkan,</span><span class='english'>There is a branch, growing from the trunk </span>",
+					 "<span class='turkish'>sonra bir dal daha o daldan çıkan,</span><span class='english'>then another branch growing from that branch,</span>", 
+					 "<span class='turkish'>sonra bir dal daha, bir dal daha,</span> <span class='english'>then another branch, another branch</span>", 
+					 "<span class='turkish'>en son dalda güzel palamut duruyor.</span><span class='english'>on the last branch is a beautiful acorn  </span>", 
+					 "<span class='turkish'>Palamutun şekli şapkası güzel,</span><span class='english'>The shape of the acorn beautiful </span>", 
+					 "<span class='turkish'>bıraksın meşeyi, dala tutunmasın,</span><span class='english'>lets the oak go, doesnt hold on to the branch </span>", 
+					 "<span class='turkish'>düşsün yere şapkasıyla beraber,</span><span class='english'>falls to the ground with its hat </span>", 
+					 "<span class='turkish'>tabii, şapkası onu meşeye bağlıyor.</span><span class='english'>Of course, its hat is whats attaching it to the oak </span>", 
+					 "<span class='turkish'>Bırak kendini öyle gövdesiz, dalsız,</span><span class='english'>Leave yourself without a trunk, without branches </span>", 
+					 "<span class='turkish'>orada asılı huzur bulman imkansız,</span><span class='english'>it is impossible to find peace hanging like that </span>", 
+					 "<span class='turkish'>düşeceğin yer de meşenin gölgesi,</span><span class='english'>the place you are going to fall is its shadow </span>", 
+					 "<span class='turkish'>güzel ayrılık orada bizi bekliyor.</span><span class='english'>a lovely seperation is waiting for us there. </span>"
 					 ]
 
 
@@ -54,11 +54,17 @@ $( ".homepage" ).mouseover(function() {
 
 
 
+
 $(".lines").mouseover(function(){
 	$(this).find(".english").css("opacity",1);
 $(".lines").mouseleave(function(){
 	$(".english").css("opacity",0);
 });
+});
+
+$(".done").click(function(){
+	$(".english").css("opacity",1);
+	$(".turkish").css("opacity",0);
 });
 
 $(".full").hide(1).delay(5000).show(1);
@@ -70,6 +76,8 @@ $(".full").click(function(){
 	$(".version_one").toggleClass("hide");
 	
 });
+
+
 
 
 

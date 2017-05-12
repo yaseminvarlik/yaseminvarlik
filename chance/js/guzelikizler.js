@@ -1,15 +1,15 @@
-var guzelIkizler = ["Güzel ikizim, ne kadar acayip değil mi,<span class='english'>My beautiful twin, isnt it weird</span>",
-					"bu kadar saf bir insanın yorgun görünmesi,<span class='english'>such a naive person looking tired</span>",
-					"iyi bir kalbin alıp başını gitmesi,<span class='english'>a good heart going away</span>", 
-					"ne acayip, evet, çok acayip.<span class='english'>how weird, yes, very weird</span>", 
-					"Ben de biliyorum yollar bozuk, değil mi,<span class='english'> I dont know either the road are damaged, isnt it</span>", 
-					"arı masum, iğne tuzak değil mi,<span class='english'>the bee is innocent, isnt the sting a trap</span>",
-					"böyle dönüp dolaşma, kalbinden uzaklaşma,<span class='english'>turn around like this, dont get away from your heart</span>",
-					"biz sabah olunca uyanacağız. <span class='english'> we are going to wake up when it is morning</span>",
-					"Ben de senin gibiyim, hiç aldatmadım,<span class='english'>I am like you, never betrayed</span>",
-					"ama sonra kaderle başbaşa kaldım,<span class='english'>but then I faced the faith</span>", 
-					"meşenin altına bir yatak hazırladım,<span class='english'>I prepared a bed underneath an oak tree</span>", 
-					"gel, her şey herkese anlatılmıyor.<span class='english'>Come, everything is not being told</span>"
+var guzelIkizler = ["<span class='turkish'>Güzel ikizim, ne kadar acayip değil mi,</span><span class='english'>My beautiful twin, isnt it weird</span>",
+					"<span class='turkish'>bu kadar saf bir insanın yorgun görünmesi,</span><span class='english'>such a naive person looking tired </span>",
+					"<span class='turkish'>iyi bir kalbin alıp başını gitmesi,</span><span class='english'>a good heart going away </span>", 
+					"<span class='turkish'>ne acayip, evet, çok acayip.</span><span class='english'>how weird, yes, very weird </span>", 
+					"<span class='turkish'>Ben de biliyorum yollar bozuk, değil mi,</span><span class='english'> I dont know either the road are damaged, isnt it </span>", 
+					"<span class='turkish'>arı masum, iğne tuzak değil mi,</span><span class='english'>the bee is innocent, isnt the sting a trap </span>",
+					"<span class='turkish'>böyle dönüp dolaşma, kalbinden uzaklaşma,</span><span class='english'>turn around like this, dont get away from your heart </span>",
+					"<span class='turkish'>biz sabah olunca uyanacağız.</span> <span class='english'> we are going to wake up when it is morning </span>",
+					"<span class='turkish'>Ben de senin gibiyim, hiç aldatmadım,</span><span class='english'>I am like you, never betrayed </span>",
+					"<span class='turkish'>ama sonra kaderle başbaşa kaldım,</span><span class='english'>but then I faced the faith </span>", 
+					"<span class='turkish'>meşenin altına bir yatak hazırladım,</span><span class='english'>I prepared a bed underneath an oak tree </span>", 
+					"<span class='turkish'>gel, her şey herkese anlatılmıyor.</span><span class='english'>Come, everything is not being told </span>"
 					]
 
 var randomLine = Math.floor(Math.random()* (guzelIkizler.length));
@@ -51,6 +51,10 @@ $( ".homepage" ).mouseover(function() {
   }, 500,function() {
   	goToHomePage("index.html");
   });
+});
+$(".done").click(function(){
+	$(".english").css("opacity",1);
+	$(".turkish").css("opacity",0);
 });
 
 $(".full").hide(1).delay(5000).show(1);

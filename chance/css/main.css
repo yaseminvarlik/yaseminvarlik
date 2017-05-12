@@ -138,11 +138,27 @@ a {
 
 .english {
     opacity: 0;
-    padding: 10px;
     font-style: italic;
     font-weight: bolder;
+
+
 }
 
+.turkish {
+    font-family:"avenir";
+    font-size: 11pt;
+  
+      
+}
+.note { 
+    font-family:"avenir";
+    font-size: 20pt;
+    font-weight: bold;
+    position: fixed;
+    top: 2%;
+    right: 30%;
+    opacity: 0;
+}
 
 .homepage a {
     width: 100%;
@@ -156,9 +172,9 @@ a {
 .full p {
     font-family: "avenir";
     font-weight: bolder;
-    font-size: 23pt;
+    font-size: 15pt;
     position: fixed;
-    bottom: 1%;
+    top: 42%;
     right: 1%;
     cursor: pointer;
 
@@ -191,6 +207,16 @@ a {
 
 .hide {
     display: none;
+}
+
+.done{
+    font-family: "avenir";
+    font-weight: bolder;
+    font-size: 15pt;
+    position: fixed;
+    top: 56%;
+    right: 1%;
+    cursor: pointer;
 }
 
 

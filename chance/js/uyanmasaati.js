@@ -1,19 +1,19 @@
-var uyanmaSaati = ["Gel, dedi, birlikte taşıyalım, dedi.<span class='english'>Come, said, carry it together, said</span>",
-					"Taşıyabildiğim kadarını, dedim.<span class='english'>Only the ones I can carry, I said</span>",
-					"Taşıyabildiğin kadarını dedim, dedi.<span class='english'>Only the ones I can carry I said, said</span>",
-					"Gidiyorsun, gitme, burada ol dedim, dedi.<span class='english'>You are leaving, dont go, be here, said.</span>",
-					"Uzağa gitme dedim dedi, diyor.<span class='english'>Dont go far I said, said, saying.</span>",
-					"Gitmiyorum, kalıyorum, dedim.<span class='english'>I am not leaving, I am staying, I said.</span>",
-					"Uyku dinlendirir dedi, dedim.<span class='english'>Sleep will calm, said, I said</span>",
-					"Uyku siler diyor dedi, dedim.<span class='english'>Sleep will erase says said, I said</span>",
-					"Sonuna kadar dinlerim, dedim dedi diyor.<span class='english'>I will listen until the end, I said, said, saying</span>",
-					"Açıyor dedim, kapıyı dedim,<span class='english'>Is opening I said, the door I said,</span>",
-					"bana dedim, doğru dedim,<span class='english'>to me I said, I said it right,</span>",
-					"oradan dedim, gözüküyor dedim, gelen dedim.<span class='english'>from there, I said, it is visible, incoming I said.</span>",
-					"Kapıyor diyor bana, dedi.<span class='english'>he is closing says, to me, said.</span>",
-					"Ben açacağım, sen üzülme dedim, dedi.<span class='english'>I am going to open it, dont be upset I said, said.</span>",
-					"Adalet Romeo!<span class='english'>Justice, Romeo!</span>",
-					"Adalet, Romeo’m!<span class='english'>Justice, my Romeo!</span>"
+var uyanmaSaati = [	"<span class='turkish'>Gel, dedi, birlikte taşıyalım, dedi.</span><span class='english'>Come, said, carry it together, said </span>",
+					"<span class='turkish'>Taşıyabildiğim kadarını, dedim.</span><span class='english'>Only the ones I can carry, I said </span>",
+					"<span class='turkish'>Taşıyabildiğin kadarını dedim, dedi.</span><span class='english'>Only the ones I can carry I said, said </span>",
+					"<span class='turkish'>Gidiyorsun, gitme, burada ol dedim, dedi.</span><span class='english'>You are leaving, dont go, be here, said.</span>",
+					"<span class='turkish'>Uzağa gitme dedim dedi, diyor.</span><span class='english'>Dont go far I said, said, saying.</span>",
+					"<span class='turkish'>Gitmiyorum, kalıyorum, dedim.</span><span class='english'>I am not leaving, I am staying, I said.</span>",
+					"<span class='turkish'>Uyku dinlendirir dedi, dedim.</span><span class='english'>Sleep will calm, said, I said</span>",
+					"<span class='turkish'>Uyku siler diyor dedi, dedim.</span><span class='english'>Sleep will erase says said, I said</span>",
+					"<span class='turkish'>Sonuna kadar dinlerim, dedim dedi diyor.</span><span class='english'>I will listen until the end, I said, said, saying</span>",
+					"<span class='turkish'>Açıyor dedim, kapıyı dedim,</span><span class='english'>Is opening I said, the door I said,</span>",
+					"<span class='turkish'>bana dedim, doğru dedim,</span><span class='english'>to me I said, I said it right,</span>",
+					"<span class='turkish'>oradan dedim, gözüküyor dedim, gelen dedim.</span><span class='english'>from there, I said, it is visible, incoming I said.</span>",
+					"<span class='turkish'>Kapıyor diyor bana, dedi.</span><span class='english'>he is closing says, to me, said.</span>",
+					"<span class='turkish'>Ben açacağım, sen üzülme dedim, dedi.</span><span class='english'>I am going to open it, dont be upset I said, said.</span>",
+					"<span class='turkish'>Adalet Romeo!</span><span class='english'>Justice, Romeo!</span>",
+					"<span class='turkish'>Adalet, Romeo’m!</span><span class='english'>Justice, my Romeo!</span>"
 				
 					]
 
@@ -55,6 +55,10 @@ $( ".homepage" ).mouseover(function() {
   }, 500,function() {
   	goToHomePage("index.html");
   });
+});
+$(".done").click(function(){
+	$(".english").css("opacity",1);
+	$(".turkish").css("opacity",0);
 });
 
 $(".full").hide(1).delay(5000).show(1);

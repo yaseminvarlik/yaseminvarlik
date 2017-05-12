@@ -1,20 +1,20 @@
-var yolCicekleri = ["İşte yolculuk kuralı: olmayanı git yaşa <span class='english'>It is the rule of journey: live the inexistence</span>",
-					"Gözlerinde neler var Oğuz <span class='english'> What is in your eyes, Oğuz</span>",
-					"Her gemi bir eylem yavrusu seç bir yol <span class='english'>Every ship is an action, choose a path</span>",
-					"Gözlerin yıldız falcısı Oğuz <span class='english'>Your eyes are the fortune teller</span>",
-					"Serüvenlerden bilinir gerçeklik duygusu <span class='english'>The sense of reality from the adventures</span>",
-					"Kendi kendine kalma Oğuz <span class='english'>Dont stay by yourself, Oğuz</span>",
-					"Bir başka zamanda bir başka hayat <span class='english'>In another time in another life</span>",
-					"İkisini birbirine bağla Oğuz <span class='english'>Tie those two together, Oğuz</span>",
-					"Küçük beyaz çiçekleri uğruna düşüncenin <span class='english'>Small white flowers for the sake of your thoughts</span>",
-					"Büyük dağlar aşacağız Oğuz <span class='english'>We are going to go over big mountains Oguz</span>",
-					"Bir avize gibi ışırsa eğer gökyüzünde renkleri <span class='english'>if its colors shine like a chandelier in the sky </span>",
-					"Bulunur yol çiçekleri Oğuz <span class='english'>the flowers will be found Oğuz</span>",
-					"Hiçbir gemi kalkmıyor yaşanılmak istenene <span class='english'>None of the ships are taking off to the wanted to be lived </span>",
-					"Yine de bin git sen Oğuz <span class='english'>Even so get on and leave Oğuz</span>",
-					"Büyük bir serüveni düşleyebilenler yaşar ancak <span class='english'>The ones who can dream a big adventure will experience</span>",
-					"Bak ve unutma <span class='english'>Look and dont forget</span>",
-					"Anlatmaya dön gel Oğuz <span class='english'>Come back to tell, Oguz</span>"
+var yolCicekleri = ["<span class='turkish'>İşte yolculuk kuralı: olmayanı git yaşa </span><span class='english'>It is the rule of journey: live the inexistence </span>",
+					"<span class='turkish'>Gözlerinde neler var Oğuz</span> <span class='english'> What is in your eyes, Oğuz </span>",
+					"<span class='turkish'>Her gemi bir eylem yavrusu seç bir yol</span> <span class='english'>Every ship is an action, choose a path </span>",
+					"<span class='turkish'>Gözlerin yıldız falcısı Oğuz </span><span class='english'>Your eyes are the fortune teller </span>",
+					"<span class='turkish'>Serüvenlerden bilinir gerçeklik duygusu </span><span class='english'>The sense of reality from the adventures </span>",
+					"<span class='turkish'>Kendi kendine kalma Oğuz</span> <span class='english'>Dont stay by yourself, Oğuz </span>",
+					"<span class='turkish'>Bir başka zamanda bir başka hayat </span><span class='english'>In another time in another life </span>",
+					"<span class='turkish'>İkisini birbirine bağla Oğuz</span> <span class='english'>Tie those two together, Oğuz </span>",
+					"<span class='turkish'>Küçük beyaz çiçekleri uğruna düşüncenin</span> <span class='english'>Small white flowers for the sake of your thoughts </span>",
+					"<span class='turkish'>Büyük dağlar aşacağız Oğuz </span><span class='english'>We are going to go over big mountains Oguz </span>",
+					"<span class='turkish'>Bir avize gibi ışırsa eğer gökyüzünde renkleri</span> <span class='english'>if its colors shine like a chandelier in the sky </span>",
+					"<span class='turkish'>Bulunur yol çiçekleri Oğuz </span><span class='english'>the flowers will be found Oğuz </span>",
+					"<span class='turkish'>Hiçbir gemi kalkmıyor yaşanılmak istenene </span><span class='english'>None of the ships are taking off to the wanted to be lived </span>",
+					"<span class='turkish'>Yine de bin git sen Oğuz</span> <span class='english'>Even so get on and leave Oğuz  </span>",
+					"<span class='turkish'>Büyük bir serüveni düşleyebilenler yaşar ancak</span> <span class='english'>The ones who can dream a big adventure will experience </span>",
+					"<span class='turkish'>Bak ve unutma </span><span class='english'>Look and dont forget </span>",
+					"<span class='turkish'>Anlatmaya dön gel Oğuz</span> <span class='english'>Come back to tell, Oguz </span>"
 
 					]
 
@@ -52,11 +52,17 @@ $( ".homepage" ).mouseover(function() {
 });
 
 
+
 $(".lines_nine").mouseover(function(){
 	$(this).find(".english").css("opacity",1);
 $(".lines_nine").mouseleave(function(){
 	$(".english").css("opacity",0);
 });
+});
+
+$(".done").click(function(){
+	$(".english").css("opacity",1);
+	$(".turkish").css("opacity",0);
 });
 
 $(".full").hide(1).delay(5000).show(1);
