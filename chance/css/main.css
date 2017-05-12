@@ -140,6 +140,7 @@ a {
     opacity: 0;
     font-style: italic;
     font-weight: bolder;
+    position: relative;
 
 
 }
@@ -217,4 +218,14 @@ a {
     cursor: pointer;
 }
 
+/*.submit {
+    font-family: "avenir";
+    font-weight: bolder;
+    font-size: 10pt;
+    position: fixed;
+    top: 2%;
+    left: 50%;
+    cursor: pointer;
+}
+*/
 

@@ -63,7 +63,7 @@ $(".lines").mouseleave(function(){
 });
 
 $(".done").click(function(){
-	$(".english").css("opacity",1);
+	$(".english").css({"opacity": "1", "left": "-45%"});
 	$(".turkish").css("opacity",0);
 });
 
@@ -77,6 +77,12 @@ $(".full").click(function(){
 	
 });
 
+// $(".submit").click(function() {
+
+// 	var global_poem = $(".english").html();
+
+// 	window.location = "https://twitter.com/home?status=" + "Poem I recreated: " + global_poem;
+// });
 
 
 
