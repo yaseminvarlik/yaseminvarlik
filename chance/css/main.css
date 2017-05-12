@@ -19,7 +19,7 @@ body {
     font-size: 10pt;
     text-align: center;
     position: fixed;
-    top: 62%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%);
 }
@@ -153,10 +153,16 @@ a {
 }
 .note { 
     font-family:"avenir";
-    font-size: 14pt;
-    font-weight: bold;
+    font-size: 10pt;
+    line-height: 2px;
    text-align: center;
+   position: fixed;
+   bottom: 2%;
+   left: 50%;
+   transform: translate(-50%);
     opacity: 0;
+    font-style: italic;
+  
 }
 
 .homepage a {
