@@ -152,7 +152,7 @@ a {
 }
 .note { 
     font-family:"avenir";
-    font-size: 20pt;
+    font-size: 14pt;
     font-weight: bold;
    text-align: center;
     opacity: 0;
@@ -172,7 +172,7 @@ a {
     font-weight: bolder;
     font-size: 15pt;
     position: fixed;
-    top: 42%;
+    top: 43%;
     right: 2%;
     cursor: pointer;
 
